@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA767609158CCDBF00B00E10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA767608158CCDBF00B00E10 /* UIKit.framework */; };
+		FA76760B158CCDBF00B00E10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA76760A158CCDBF00B00E10 /* Foundation.framework */; };
+		FA76760D158CCDBF00B00E10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA76760C158CCDBF00B00E10 /* CoreGraphics.framework */; };
+		FA767613158CCDBF00B00E10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA767611158CCDBF00B00E10 /* InfoPlist.strings */; };
+		FA767615158CCDBF00B00E10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA767614158CCDBF00B00E10 /* main.m */; };
+		FA767619158CCDBF00B00E10 /* FfAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA767618158CCDBF00B00E10 /* FfAppDelegate.m */; };
+		FA76761C158CCDBF00B00E10 /* FfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA76761B158CCDBF00B00E10 /* FfViewController.m */; };
+		FA76761F158CCDBF00B00E10 /* FfViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA76761D158CCDBF00B00E10 /* FfViewController_iPhone.xib */; };
+		FA767622158CCDBF00B00E10 /* FfViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA767620158CCDBF00B00E10 /* FfViewController_iPad.xib */; };
+		FA76762A158CCDBF00B00E10 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA767629158CCDBF00B00E10 /* SenTestingKit.framework */; };
+		FA76762B158CCDBF00B00E10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA767608158CCDBF00B00E10 /* UIKit.framework */; };
+		FA76762C158CCDBF00B00E10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA76760A158CCDBF00B00E10 /* Foundation.framework */; };
+		FA767634158CCDBF00B00E10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA767632158CCDBF00B00E10 /* InfoPlist.strings */; };
+		FA767637158CCDBF00B00E10 /* FuehrerscheinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA767636158CCDBF00B00E10 /* FuehrerscheinTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA76762D158CCDBF00B00E10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA7675FB158CCDBF00B00E10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA767603158CCDBF00B00E10;
+			remoteInfo = Fuehrerschein;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA767604158CCDBF00B00E10 /* Fuehrerschein.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fuehrerschein.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA767608158CCDBF00B00E10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA76760A158CCDBF00B00E10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA76760C158CCDBF00B00E10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA767610158CCDBF00B00E10 /* Fuehrerschein-Info.plist */ = {isa = PBXFileReference; path = "Fuehrerschein-Info.plist"; sourceTree = "<group>"; };
+		FA767612158CCDBF00B00E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA767614158CCDBF00B00E10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA767616158CCDBF00B00E10 /* Fuehrerschein-Prefix.pch */ = {isa = PBXFileReference; path = "Fuehrerschein-Prefix.pch"; sourceTree = "<group>"; };
+		FA767617158CCDBF00B00E10 /* FfAppDelegate.h */ = {isa = PBXFileReference; path = FfAppDelegate.h; sourceTree = "<group>"; };
+		FA767618158CCDBF00B00E10 /* FfAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FfAppDelegate.m; sourceTree = "<group>"; };
+		FA76761A158CCDBF00B00E10 /* FfViewController.h */ = {isa = PBXFileReference; path = FfViewController.h; sourceTree = "<group>"; };
+		FA76761B158CCDBF00B00E10 /* FfViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FfViewController.m; sourceTree = "<group>"; };
+		FA76761E158CCDBF00B00E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FfViewController_iPhone.xib; sourceTree = "<group>"; };
+		FA767621158CCDBF00B00E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FfViewController_iPad.xib; sourceTree = "<group>"; };
+		FA767628158CCDBF00B00E10 /* FuehrerscheinTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuehrerscheinTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA767629158CCDBF00B00E10 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FA767631158CCDBF00B00E10 /* FuehrerscheinTests-Info.plist */ = {isa = PBXFileReference; path = "FuehrerscheinTests-Info.plist"; sourceTree = "<group>"; };
+		FA767633158CCDBF00B00E10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA767635158CCDBF00B00E10 /* FuehrerscheinTests.h */ = {isa = PBXFileReference; path = FuehrerscheinTests.h; sourceTree = "<group>"; };
+		FA767636158CCDBF00B00E10 /* FuehrerscheinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FuehrerscheinTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA767601158CCDBF00B00E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA767609158CCDBF00B00E10 /* UIKit.framework in Frameworks */,
+				FA76760B158CCDBF00B00E10 /* Foundation.framework in Frameworks */,
+				FA76760D158CCDBF00B00E10 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA767624158CCDBF00B00E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA76762A158CCDBF00B00E10 /* SenTestingKit.framework in Frameworks */,
+				FA76762B158CCDBF00B00E10 /* UIKit.framework in Frameworks */,
+				FA76762C158CCDBF00B00E10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA7675F9158CCDBF00B00E10 = {
+			isa = PBXGroup;
+			children = (
+				FA76760E158CCDBF00B00E10 /* Fuehrerschein */,
+				FA76762F158CCDBF00B00E10 /* FuehrerscheinTests */,
+				FA767607158CCDBF00B00E10 /* Frameworks */,
+				FA767605158CCDBF00B00E10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA767605158CCDBF00B00E10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA767604158CCDBF00B00E10 /* Fuehrerschein.app */,
+				FA767628158CCDBF00B00E10 /* FuehrerscheinTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA767607158CCDBF00B00E10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA767608158CCDBF00B00E10 /* UIKit.framework */,
+				FA76760A158CCDBF00B00E10 /* Foundation.framework */,
+				FA76760C158CCDBF00B00E10 /* CoreGraphics.framework */,
+				FA767629158CCDBF00B00E10 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA76760E158CCDBF00B00E10 /* Fuehrerschein */ = {
+			isa = PBXGroup;
+			children = (
+				FA767617158CCDBF00B00E10 /* FfAppDelegate.h */,
+				FA767618158CCDBF00B00E10 /* FfAppDelegate.m */,
+				FA76761A158CCDBF00B00E10 /* FfViewController.h */,
+				FA76761B158CCDBF00B00E10 /* FfViewController.m */,
+				FA76761D158CCDBF00B00E10 /* FfViewController_iPhone.xib */,
+				FA767620158CCDBF00B00E10 /* FfViewController_iPad.xib */,
+				FA76760F158CCDBF00B00E10 /* Supporting Files */,
+			);
+			path = Fuehrerschein;
+			sourceTree = "<group>";
+		};
+		FA76760F158CCDBF00B00E10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA767610158CCDBF00B00E10 /* Fuehrerschein-Info.plist */,
+				FA767611158CCDBF00B00E10 /* InfoPlist.strings */,
+				FA767614158CCDBF00B00E10 /* main.m */,
+				FA767616158CCDBF00B00E10 /* Fuehrerschein-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA76762F158CCDBF00B00E10 /* FuehrerscheinTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA767635158CCDBF00B00E10 /* FuehrerscheinTests.h */,
+				FA767636158CCDBF00B00E10 /* FuehrerscheinTests.m */,
+				FA767630158CCDBF00B00E10 /* Supporting Files */,
+			);
+			path = FuehrerscheinTests;
+			sourceTree = "<group>";
+		};
+		FA767630158CCDBF00B00E10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA767631158CCDBF00B00E10 /* FuehrerscheinTests-Info.plist */,
+				FA767632158CCDBF00B00E10 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA767603158CCDBF00B00E10 /* Fuehrerschein */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA76763A158CCDBF00B00E10 /* Build configuration list for PBXNativeTarget "Fuehrerschein" */;
+			buildPhases = (
+				FA767600158CCDBF00B00E10 /* Sources */,
+				FA767601158CCDBF00B00E10 /* Frameworks */,
+				FA767602158CCDBF00B00E10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fuehrerschein;
+			productName = Fuehrerschein;
+			productReference = FA767604158CCDBF00B00E10 /* Fuehrerschein.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA767627158CCDBF00B00E10 /* FuehrerscheinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA76763D158CCDBF00B00E10 /* Build configuration list for PBXNativeTarget "FuehrerscheinTests" */;
+			buildPhases = (
+				FA767623158CCDBF00B00E10 /* Sources */,
+				FA767624158CCDBF00B00E10 /* Frameworks */,
+				FA767625158CCDBF00B00E10 /* Resources */,
+				FA767626158CCDBF00B00E10 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA76762E158CCDBF00B00E10 /* PBXTargetDependency */,
+			);
+			name = FuehrerscheinTests;
+			productName = FuehrerscheinTests;
+			productReference = FA767628158CCDBF00B00E10 /* FuehrerscheinTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA7675FB158CCDBF00B00E10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = FA7675FE158CCDBF00B00E10 /* Build configuration list for PBXProject "Fuehrerschein" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA7675F9158CCDBF00B00E10;
+			productRefGroup = FA767605158CCDBF00B00E10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA767603158CCDBF00B00E10 /* Fuehrerschein */,
+				FA767627158CCDBF00B00E10 /* FuehrerscheinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA767602158CCDBF00B00E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA767613158CCDBF00B00E10 /* InfoPlist.strings in Resources */,
+				FA76761F158CCDBF00B00E10 /* FfViewController_iPhone.xib in Resources */,
+				FA767622158CCDBF00B00E10 /* FfViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA767625158CCDBF00B00E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA767634158CCDBF00B00E10 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FA767626158CCDBF00B00E10 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA767600158CCDBF00B00E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA767615158CCDBF00B00E10 /* main.m in Sources */,
+				FA767619158CCDBF00B00E10 /* FfAppDelegate.m in Sources */,
+				FA76761C158CCDBF00B00E10 /* FfViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA767623158CCDBF00B00E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA767637158CCDBF00B00E10 /* FuehrerscheinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA76762E158CCDBF00B00E10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA767603158CCDBF00B00E10 /* Fuehrerschein */;
+			targetProxy = FA76762D158CCDBF00B00E10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA767611158CCDBF00B00E10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA767612158CCDBF00B00E10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA76761D158CCDBF00B00E10 /* FfViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA76761E158CCDBF00B00E10 /* en */,
+			);
+			name = FfViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		FA767620158CCDBF00B00E10 /* FfViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA767621158CCDBF00B00E10 /* en */,
+			);
+			name = FfViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		FA767632158CCDBF00B00E10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA767633158CCDBF00B00E10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA767638158CCDBF00B00E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA767639158CCDBF00B00E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA76763B158CCDBF00B00E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fuehrerschein/Fuehrerschein-Prefix.pch";
+				INFOPLIST_FILE = "Fuehrerschein/Fuehrerschein-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA76763C158CCDBF00B00E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fuehrerschein/Fuehrerschein-Prefix.pch";
+				INFOPLIST_FILE = "Fuehrerschein/Fuehrerschein-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FA76763E158CCDBF00B00E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fuehrerschein.app/Fuehrerschein";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fuehrerschein/Fuehrerschein-Prefix.pch";
+				INFOPLIST_FILE = "FuehrerscheinTests/FuehrerscheinTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FA76763F158CCDBF00B00E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fuehrerschein.app/Fuehrerschein";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fuehrerschein/Fuehrerschein-Prefix.pch";
+				INFOPLIST_FILE = "FuehrerscheinTests/FuehrerscheinTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA7675FE158CCDBF00B00E10 /* Build configuration list for PBXProject "Fuehrerschein" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA767638158CCDBF00B00E10 /* Debug */,
+				FA767639158CCDBF00B00E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA76763A158CCDBF00B00E10 /* Build configuration list for PBXNativeTarget "Fuehrerschein" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA76763B158CCDBF00B00E10 /* Debug */,
+				FA76763C158CCDBF00B00E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA76763D158CCDBF00B00E10 /* Build configuration list for PBXNativeTarget "FuehrerscheinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA76763E158CCDBF00B00E10 /* Debug */,
+				FA76763F158CCDBF00B00E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA7675FB158CCDBF00B00E10 /* Project object */;
+}
