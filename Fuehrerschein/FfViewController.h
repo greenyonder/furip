@@ -7,7 +7,25 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FfBackground.h"
+#import "FfQuizViewController.h"
+#import "FfErrorsViewController.h"
+#import "FfInfoViewController.h"
 
-@interface FfViewController : UIViewController
+
+@interface FfViewController : UIViewController <UIActionSheetDelegate> {
+
+    
+}
+
+
+@property(nonatomic, retain) IBOutlet FfBackground *ffbackground;
+
+
+
+-(void) openQuiz:(NSInteger) intquiz;
+
+
+-(IBAction)showActionSheet:(id)sender;
 
 @end

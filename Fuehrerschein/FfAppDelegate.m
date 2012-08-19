@@ -7,25 +7,43 @@
 //
 
 #import "FfAppDelegate.h"
-
 #import "FfViewController.h"
+
+NSString *const FFQUIZNUMBER = @"25";
+
 
 @implementation FfAppDelegate
 
 @synthesize window = _window;
 @synthesize viewController = _viewController;
 
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+ 
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+       
     // Override point for customization after application launch.
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
         self.viewController = [[FfViewController alloc] initWithNibName:@"FfViewController_iPhone" bundle:nil];
     } else {
         self.viewController = [[FfViewController alloc] initWithNibName:@"FfViewController_iPad" bundle:nil];
     }
+   
     self.window.rootViewController = self.viewController;
-    [self.window makeKeyAndVisible];
+    //[self.window addSubview:self.viewController];
+   
+
+    
+ [self.window makeKeyAndVisible];
+    
+  
+    
+ //   NSUserDefaults *prefs = [[NSUserDefaults alloc] init];
+  //  [prefs setValue:FFQUIZNUMBER forKey:[self getQuizNumber]];
+    
+    
     return YES;
 }
 
@@ -67,5 +85,8 @@
      See also applicationDidEnterBackground:.
      */
 }
+
+
+
 
 @end

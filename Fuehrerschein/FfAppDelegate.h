@@ -8,12 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
+
 @class FfViewController;
 
-@interface FfAppDelegate : UIResponder <UIApplicationDelegate>
+
+@interface FfAppDelegate : UIResponder <UIApplicationDelegate> {
+
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
 @property (strong, nonatomic) FfViewController *viewController;
+
+
+
+-(NSString *) getQuizNumeber;
 
 @end
