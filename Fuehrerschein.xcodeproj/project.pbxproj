@@ -451,10 +451,14 @@
 		FA76763B158CCDBF00B00E10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ivan Crosignani (X4NHD7KVVJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ivan Crosignani (X4NHD7KVVJ)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fuehrerschein/Fuehrerschein-Prefix.pch";
 				INFOPLIST_FILE = "Fuehrerschein/Fuehrerschein-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7DAA994F-49CE-4753-8B81-0309ACCD62AB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7DAA994F-49CE-4753-8B81-0309ACCD62AB";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -462,10 +466,14 @@
 		FA76763C158CCDBF00B00E10 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ivan Crosignani (X4NHD7KVVJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ivan Crosignani (X4NHD7KVVJ)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fuehrerschein/Fuehrerschein-Prefix.pch";
 				INFOPLIST_FILE = "Fuehrerschein/Fuehrerschein-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7DAA994F-49CE-4753-8B81-0309ACCD62AB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7DAA994F-49CE-4753-8B81-0309ACCD62AB";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
