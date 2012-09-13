@@ -76,8 +76,8 @@
     
     MyLabel *lbl;
     
-       lbl = [[MyLabel alloc] initWithFrame:CGRectMake(0, 0, w , 100)];
-    
+       lbl = [[MyLabel alloc] initWithFrame:CGRectMake(0, 0, w , 70)];
+        
     lbl.text=info;
     lbl.numberOfLines=0;
     
@@ -99,7 +99,7 @@
     
     //[uisv sizeToFit];
 //    NSLog(@"framie info y %d" , lbl.frame.origin.y);
-    [uisv setContentSize:CGSizeMake(w, h+60)];
+    [uisv setContentSize:CGSizeMake(w, h+200)];
     [self.view addSubview:uisv];
 
     
